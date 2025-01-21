@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-const page = () => {
+const Page = () => {
    const { cart,total } = useCart();
    const tax = 2.5
    const Total = total + tax
@@ -27,7 +27,7 @@ const page = () => {
         <section className="lg:col-span-2 h-auto bg-white p-6 shadow rounded-lg">
           <h2 className="text-lg font-semibold mb-4">Order Summary</h2>
           {cart.map((product)=> (
-          <div className="space-y-4">
+          <div className="space-y-4" key={product._id}>
             {/* Product Item */}
             <div className="flex items-center justify-between border-b pb-4">
               <div className="flex items-center space-x-4">
@@ -146,4 +146,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

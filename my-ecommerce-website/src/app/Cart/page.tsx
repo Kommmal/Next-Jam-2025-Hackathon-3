@@ -6,7 +6,7 @@ import { FiArrowRight } from 'react-icons/fi';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 
-const page = () => {
+const Page = () => {
   const { cart , removeFromCart, calculateSubtotal, discount, deliveryFee,total } = useCart();
 
 
@@ -120,4 +120,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

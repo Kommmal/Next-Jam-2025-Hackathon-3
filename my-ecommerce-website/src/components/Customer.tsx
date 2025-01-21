@@ -38,7 +38,7 @@ const Customer = ()=> {
                         <h1 className='font-bold text-xl'>ALex k.</h1>
                         <TiTick size={30} className='border-2 border-green-600 bg-green-600 rounded-full' />
                     </div>
-                    <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+                    <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."</p>
                 </div>
                 <div className='flex flex-col gap-4 border-2 rounded-[20px] px-5 py-10 my-5'>
                     <div className='flex'>
@@ -52,7 +52,7 @@ const Customer = ()=> {
                         <h1 className='font-bold text-xl'>Sarah M.</h1>
                         <TiTick size={30} className='border-2 border-green-600 bg-green-600 rounded-full' />
                     </div>
-                    <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    <p>"Im blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses every piece Ive bought has exceeded my expectations."</p>
                 </div>
                 <div className='flex flex-col gap-4 border-2 rounded-[20px] px-5 py-10 my-5'>
                     <div className='flex'>
@@ -66,7 +66,7 @@ const Customer = ()=> {
                         <h1 className='font-bold text-xl'>James L.</h1>
                         <TiTick size={30} className='border-2 border-green-600 bg-green-600 rounded-full' />
                     </div>
-                    <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+                    <p>"As someone who is always on the lookout for unique fashion pieces I am thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends."</p>
                 </div>
             </div>
         </div>

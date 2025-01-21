@@ -5,12 +5,11 @@ import { FiShoppingCart, FiUser, FiMenu, FiX } from "react-icons/fi"
 import { AiOutlineSearch } from "react-icons/ai"
 import { useCart } from '@/context/CartContext'
 import Search from "./Recomendation/Search";
-import { FaCross } from "react-icons/fa";
 
-interface HeaderProps {}
 
-const Header: React.FC<HeaderProps> = () => {
-  const { cart, search, setSearch } = useCart();
+
+const Header: React.FC = () => {
+  const { cart } = useCart();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false); // Mobile search state
 

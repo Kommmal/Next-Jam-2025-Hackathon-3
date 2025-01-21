@@ -104,7 +104,7 @@ const Search = () => {
             ))
           ) : (
             <div className="p-4 text-center text-gray-500">
-              No products found for "{search}".
+              No products found for {search}.
             </div>
           )}
         </div>

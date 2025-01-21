@@ -39,7 +39,6 @@ async function getData() {
 
 const Page = () => {
   const [showFilters, setShowFilters] = useState(false);
-  const [visible, setVisible] = useState(false)
   const [data, setData] = useState<Product[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
